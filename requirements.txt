@@ -1,0 +1,14 @@
+# PyTorch with CUDA 11.8
+torch==2.1.0+cu118
+torchvision==0.16.0+cu118
+torchaudio==2.1.0+cu118
+
+# Other dependencies
+matplotlib>=3.7.0
+scikit-learn>=1.2.0
+Pillow>=9.0.0
+tqdm>=4.65.0
+kagglehub>=0.1.0
+
+# Installation source for PyTorch GPU wheels
+-f https://download.pytorch.org/whl/cu118/torch_stable.html
