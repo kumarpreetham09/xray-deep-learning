@@ -108,15 +108,13 @@ python github_folder/main.py
 ```
 pneumonia_machine_learning/
 │
-├─ github_folder/
-│   └─ main.py          # Training, evaluation, and visualization script
-|   └─ requirements.txt
-│
 ├─ chest_xray/          # Dataset directory (downloaded automatically)
 │   ├─ train/
 │   ├─ val/
 │   └─ test/
 │
+├─ main.py
+├─ requirements.txt
 ├─ pneumonia_detector.pth
 └─ README.md
 ```
